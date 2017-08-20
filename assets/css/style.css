@@ -62,7 +62,7 @@ hr {
     height: 1px;
     width: 100%;
 }
-input[type=submit] {
+.subbtn {
     background-color: #E86F0B;
     color: white;
 }
