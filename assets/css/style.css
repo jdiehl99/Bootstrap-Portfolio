@@ -1,16 +1,19 @@
+/* rice paper main color: #EFEAD4 */
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
+    color: #7F764B;
+    background-image: url("../images/ricepaper.png");
+    background-repeat: repeat;
 }
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
+    color: #E86F0B;
     font-weight: bold;
     font-size: 20px;
 }
 h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    color: #4aaaa5;
+    color: #E86F0B;
     font-weight: bold;
     padding-bottom: 6px;
     font-size: 18px;
@@ -30,30 +33,30 @@ a:hover {
 a:active {
     text-decoration: underline;
 }
+.nav-bgcolor {
+    background-color: #FFFAE2;
+}
 .container-main {
     width: 960px;
     margin: 0 auto;
     @include make-container();
 }
-.container-content {
-    background-image: url("../images/ricepaper.png");
-    background-repeat: repeat;
-}
-.container-interior {
-    padding: 10px;
-}
 .col-bg {
-    background: #fff;
+    background: #FFFAE2;
+    padding: 10px;
+    margin: 10px 0;
 }
 .footer {
     width: 960px;
     height: 40px;
     padding: 6px;
-    border-top: 2px solid #4aaaa5;
-    color: #ccc;
+    color: #7F764B;
     text-align: center;
 }
-
+img.profile {
+    float: left;
+    margin: 0 10px 10px 0;
+}
 /*
 #headbar {
     width: 960px;
@@ -67,7 +70,7 @@ a:active {
     position: absolute;
     left: 80px;
     bottom: 0px;
-    background-color: #4aaaa5;
+    background-color: #E86F0B;
     padding: 20px 20px 0px 20px;
 }
 .head_right {
@@ -111,7 +114,7 @@ img.profile {
     width: 960px;
     padding: 10px 0;
     background-color: #666666;
-    border-top: 4px solid #4aaaa5;
+    border-top: 4px solid #E86F0B;
     height: 20px;
     color: #ccc;
     text-align: center;
@@ -128,7 +131,7 @@ hr {
     width: 100%;
 }
 input[type=submit] {
-    background-color: #4aaaa5;
+    background-color: #E86F0B;
     color: white;
 }
 .port_box {
@@ -142,7 +145,7 @@ input[type=submit] {
 }
 p.port_text {
     color: #fff;
-    background-color: #4aaaa5;
+    background-color: #E86F0B;
     height: 30px;
     text-align: center;
     margin-top: 100px;
