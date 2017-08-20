@@ -57,6 +57,52 @@ img.profile {
     float: left;
     margin: 0 10px 10px 0;
 }
+hr {
+    background-color: #e7e7e7;
+    height: 1px;
+    width: 100%;
+}
+input[type=submit] {
+    background-color: #E86F0B;
+    color: white;
+}
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+p.port_text {
+    color: #fff;
+    background-color: #E86F0B;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 8px;
+}
+.row-port {
+    margin: 10px 40px;
+}
+.box1 {
+    background-image: url("../images/port1.jpg");
+    background-repeat: no-repeat;
+}
+.box2 {
+    background-image: url("../images/port2.jpg");
+    background-repeat: no-repeat;
+}
+.box3 {
+    background-image: url("../images/port3.jpg");
+    background-repeat: no-repeat;
+}
+.box4 {
+    background-image: url("../images/port4.jpg");
+    background-repeat: no-repeat;
+}
+.box5 {
+    background-image: url("../images/port5.jpg");
+    background-repeat: no-repeat;
+}
 /*
 #headbar {
     width: 960px;
@@ -119,21 +165,7 @@ img.profile {
     color: #ccc;
     text-align: center;
 }
-*/
-.clearfix::after {
-	content: "";
-	display: block;
-	clear: both;
-}
-hr {
-    background-color: #e7e7e7;
-    height: 1px;
-    width: 100%;
-}
-input[type=submit] {
-    background-color: #E86F0B;
-    color: white;
-}
+
 .port_box {
     padding: 10px 40px;
 }
@@ -143,30 +175,4 @@ input[type=submit] {
 .port_right {
     float: right;
 }
-p.port_text {
-    color: #fff;
-    background-color: #E86F0B;
-    height: 30px;
-    text-align: center;
-    margin-top: 100px;
-    padding-top: 8px;
-}
-.box {
-    height: 150px;
-    width: 200px;
-}
-.box1 {
-    background-image: url("../images/port1.jpg")
-}
-.box2 {
-    background-image: url("../images/port2.jpg")
-}
-.box3 {
-    background-image: url("../images/port3.jpg")
-}
-.box4 {
-    background-image: url("../images/port4.jpg")
-}
-.box5 {
-    background-image: url("../images/port5.jpg")
-}
+*/
